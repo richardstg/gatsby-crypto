@@ -1,0 +1,11 @@
+@import "../../styles/variables.scss";
+
+.outer-wrapper {
+  padding-top: $vertical-rhythm * 5;
+  padding-bottom: $vertical-rhythm;
+}
+
+.title {
+  text-align: center;
+  // margin-bottom: $vertical-rhythm;
+}

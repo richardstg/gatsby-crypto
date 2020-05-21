@@ -1,0 +1,77 @@
+@import "../../styles/variables.scss";
+
+.outer-wrapper {
+  padding-top: $vertical-rhythm * 5;
+  padding-bottom: $vertical-rhythm;
+  h4 {
+    margin-bottom: $vertical-rhythm;
+  }
+  p {
+    margin-bottom: $vertical-rhythm * 2;
+  }
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  // margin-bottom: $vertical-rhythm;
+}
+
+.button {
+  background: transparent;
+  font-size: 1.3rem;
+  border: 0.25rem solid $button-color;
+  color: $button-color;
+  text-decoration: none;
+  height: $vertical-rhythm * 2 - 0.5rem;
+  padding: 0 15px;
+  //padding: 5px 15px;
+  border-radius: 1.1rem;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+  box-shadow: inset 0px 0px 0px $button-color;
+  &:hover {
+    background-color: $button-color;
+    border: 4px solid $button-color;
+    color: #ffffff;
+    box-shadow: inset 0px 0px 150px $button-color;
+  }
+  &:before {
+    content: "";
+    background-color: #00f0ff;
+    border-radius: 1.1rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale(0.001, 0.001);
+  }
+  &:focus {
+    outline: none !important;
+    &:before {
+      animation: effect_dylan 0.8s ease-out;
+    }
+  }
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+@keyframes effect_dylan {
+  50% {
+    transform: scale(1.5, 1.5);
+    opacity: 0;
+  }
+  99% {
+    transform: scale(0.001, 0.001);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.001, 0.001);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,160 @@
+@import "../../styles/variables.scss";
+
+.outer-wrapper {
+  //background-image: none;
+  //background-size: cover;
+  //background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  //text-align: center;
+
+  //background-color: black;
+  //background: url("../../../static/SVG/background-intro.svg") no-repeat;
+  //background: url("../../../static/SVG/Lager 21.svg") no-repeat;
+  //background: url("../../images/ripple-etehereum-and-bitcoin.jpg") no-repeat;
+  //background-attachment: fixed;
+  background-size: cover;
+  // &:before {
+  //   content: ""; // ::before and ::after both require content
+  //   position: absolute;
+  //   //top: 0;
+  //   //left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   //background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+  //   // background: url("../../images/round-gold-colored-bitcoin.jpg") no-repeat;
+  //   //background: url("../../../static/SVG/background-intro.svg") no-repeat;
+  //   background: url("../../../static/SVG/Lager 2.svg") no-repeat;
+  //   opacity: 0.1;
+  //   background-size: cover;
+  //   //background-attachment: fixed;
+  // }
+}
+
+.inner-wrapper {
+  padding-top: $vertical-rhythm * 3;
+}
+
+.title {
+  font-size: 4rem;
+  margin-bottom: $vertical-rhythm;
+  font-weight: bolder;
+  color: #00bfff;
+}
+
+.subTitle {
+  font-size: 2rem;
+  margin-bottom: 0;
+  // color: #266980;
+  color: #0099cc;
+}
+
+.text {
+  font-size: 1.25rem;
+  margin-bottom: $vertical-rhythm * 2;
+  color: #666666;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  //line-height: 1.4;
+}
+
+.leftColumn {
+  @media (max-width: 767px) {
+    order: 2;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rightColumn {
+  @media (max-width: 767px) {
+    text-align: center;
+    order: 1;
+    svg {
+      margin-bottom: $vertical-rhythm * 2;
+    }
+  }
+  text-align: right;
+  //align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  svg {
+    width: 80%;
+    //opacity: 0.8;
+  }
+}
+
+.hr {
+  width: 42%;
+  margin-top: 0;
+  margin-bottom: $vertical-rhythm * 2;
+  // border-width: 2px;
+  // height: 2px;
+  // border-color: #ff1955;
+  background-color: #ff1955;
+  color: #ff1955;
+  height: 2px;
+  border: none;
+
+  @media (max-width: 1200px) {
+    width: 50%;
+  }
+
+  @media (max-width: 990px) {
+    width: 60%;
+  }
+  @media (max-width: 767px) {
+    width: 55%;
+  }
+  @media (max-width: 640px) {
+    width: 45%;
+  }
+  @media (max-width: 570px) {
+    width: 50%;
+  }
+  @media (max-width: 520px) {
+    width: 55%;
+  }
+  @media (max-width: 480px) {
+    width: 100%;
+  }
+}
+
+/* Responsive styles */
+@media screen and (max-width: 990px) {
+  .title {
+    font-size: 3.5rem;
+  }
+  .subTitle {
+    font-size: 1.75rem;
+  }
+  .text {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  .subTitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 341px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  .subTitle {
+    font-size: 1.3rem;
+  }
+}
