@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 const CoinbaseImage = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "coinbase2.png" }) {
+      placeholderImage: file(relativePath: { eq: "coinbase2.jpg" }) {
         childImageSharp {
           fluid(quality: 90) {
             ...GatsbyImageSharpFluid

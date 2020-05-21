@@ -5,9 +5,9 @@ import Img from "gatsby-image"
 const PhemexImage = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "Phemex-logo.png" }) {
+      placeholderImage: file(relativePath: { eq: "phemex.jpg" }) {
         childImageSharp {
-          fluid(quality: 90) {
+          fluid(quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }
