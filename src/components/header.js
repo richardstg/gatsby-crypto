@@ -1,16 +1,9 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-} from "reactstrap"
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from "reactstrap"
 
 import headerStyles from "./header.module.scss"
-import LandingPageSVG from "./svg/landingPageSVG"
+import HeaderLogoSVG from "./svg/headerLogoSVG"
 
 const autoHideNav = elementId => {
   /* Auto hide the navbar when scrolling down */
@@ -62,9 +55,9 @@ const Header = props => {
       expand="lg"
       id="navbar"
     >
-      <NavbarBrand className={headerStyles.navbarBrand} href="/">
-        <LandingPageSVG className={headerStyles.logo} />
-      </NavbarBrand>
+      <Link aria-label="Hem" className={headerStyles.navbarBrand} to="/">
+        <HeaderLogoSVG className={headerStyles.logo} />
+      </Link>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>
         <Nav className="ml-auto" navbar>

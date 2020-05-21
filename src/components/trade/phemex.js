@@ -41,10 +41,19 @@ const Phemex = () => {
                 det dessutom möjligt att handla guldterminer. Man kan inte köpa
                 kryptovalutor för lokala valutor (ex. SEK, EUR och USD), utan
                 måste först köpa kryptovalutor på en annan börs (t.ex.{" "}
-                <a href="https://coinbase.com">Coinbase</a>,{" "}
-                <a href="https://bitpanda.com">Bitpanda</a> eller{" "}
-                <a href="https://coinmama.com">Coinmama</a>) och sedan överföra
-                till sitt Phemex-konto. Därefter kan man börja trada.
+                <a className={articleStyles.link} href="https://coinbase.com">
+                  Coinbase
+                </a>
+                ,{" "}
+                <a className={articleStyles.link} href="https://bitpanda.com">
+                  Bitpanda
+                </a>{" "}
+                eller{" "}
+                <a className={articleStyles.link} href="https://coinmama.com">
+                  Coinmama
+                </a>
+                ) och sedan överföra till sitt Phemex-konto. Därefter kan man
+                börja trada.
               </p>
               <p className={articleStyles.text}>
                 Liksom merparten av sina konkurrenter kan man ta både korta och

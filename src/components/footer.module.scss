@@ -38,14 +38,13 @@
   font-family: $body-font;
 
   &:hover {
-    //color: #666666;
-    //color: #00f0ff;
-    color: $button-color;
+    color: #70d4ff;
+    //color: $button-color;
     text-decoration: none;
   }
 }
 .active-footer-link {
-  //color: #ff1938;
-  color: $button-color;
+  color: #70d4ff;
+  //color: $button-color;
   //border-color: $button-color;
 }

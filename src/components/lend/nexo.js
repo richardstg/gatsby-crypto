@@ -30,10 +30,18 @@ const Nexo = () => {
                 Man har som kund möjlighet att låna ut Euros till en ränta av
                 8%. Än så länge tillhandahåller de inte någon utlåning av
                 kryptovalutor. För detta rekommenderas{" "}
-                <a href="https://blockfi.com">BlockFi</a> och{" "}
-                <a href="https://celsius.network">Celsius</a>. Inom kort kommer
-                man dock ha möjlighet att låna ut Bitcoin (BTC), Ethereum (ETH),
-                Ripple (XRP) och Bitcoin Cash (BCH).
+                <a className={articleStyles.link} href="https://blockfi.com">
+                  BlockFi
+                </a>{" "}
+                och{" "}
+                <a
+                  className={articleStyles.link}
+                  href="https://celsius.network"
+                >
+                  Celsius
+                </a>
+                . Inom kort kommer man dock ha möjlighet att låna ut Bitcoin
+                (BTC), Ethereum (ETH), Ripple (XRP) och Bitcoin Cash (BCH).
               </p>
               <p className={articleStyles.text}>
                 Nexo tillhandahåller även ett kreditkort backat av MasterCard

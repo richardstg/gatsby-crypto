@@ -32,7 +32,9 @@ const Outro = () => {
                 skaffa en extern plånbok. På sikt är det dock säkrast att man
                 använder sig av en sådan. För mer information rekommenderar vi
                 att man läser vårt avsnitt om{" "}
-                <Link to="/planbocker">de bästa plånböckerna på marknaden</Link>
+                <Link className={articleStyles.link} to="/planbocker">
+                  de bästa plånböckerna på marknaden
+                </Link>
                 .
               </p>
             </div>

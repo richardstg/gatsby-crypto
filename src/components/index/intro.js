@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap"
 import Typical from "react-typical"
 
 import introStyles from "./intro.module.scss"
-import LandingPageSVG from "../svg/landingPageSVG"
+import LandingPageLogoSVG from "../svg/landingPageLogoSVG"
 
 const Intro = () => {
   return (
@@ -51,12 +51,12 @@ const Intro = () => {
               data-sal-duration="1200"
               data-sal-easing="ease-in-back"
             >
-              <h5 className={introStyles.text}>
+              <p className={introStyles.text}>
                 Vi gör det enkelt för dig att hitta de bästa tjänsterna och
-                produkterna för kryptovalutor. Genom att lista och ranka de
-                främsta kryptotjänsterna hoppas vi att du ska kunna göra
-                utbildade och välgrundade beslut.
-              </h5>
+                produkterna för kryptovalutor. Genom vår information hoppas vi
+                att du ska kunna göra utbildade och välgrundade beslut gällande
+                dina investeringar.
+              </p>
             </div>
           </Col>
           <Col className={introStyles.rightColumn} xs={12} md={4}>
@@ -66,7 +66,7 @@ const Intro = () => {
               data-sal-duration="800"
               data-sal-easing="ease-out-bounce"
             >
-              <LandingPageSVG />
+              <LandingPageLogoSVG />
             </div>
           </Col>
         </Row>

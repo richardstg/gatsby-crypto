@@ -19,10 +19,11 @@ const Exchange = () => {
             >
               <h2 className={exchangeStyles.title}>Köpa kryptovalutor</h2>
               <p className={exchangeStyles.text}>
-                Det ska vara enkelt att köpa och investera i kryptovalutor.
-                Därför har vi valt ut de handelsplatser med den i särklass bästa
-                användarupplevelsen. Enligt oss är dessa optimala för nybörjare
-                som ska köpa sina första kryptovalutor.
+                Det är många som undrar vilken handelsplats som är bäst. För att
+                du ska kunna komma igång och investera har vi valt ut de
+                handelsplatser med med högst pålitlighet, lägst avgifter och
+                smidigast användargränssnitt. Enligt oss är dessa optimala för
+                nybörjare som ska köpa sina första kryptovalutor.
               </p>
             </div>
             <div

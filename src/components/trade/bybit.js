@@ -34,10 +34,18 @@ const Bybit = () => {
                 oavsett om marknaden går upp eller ner. Det är inte möjligt att
                 köpa kryptovalutor med kort eller banköverföring. För att börja
                 trada måste man köpa dessa på annan plats, exempelvis{" "}
-                <a href="https://coinbase.com">Coinbase</a>,{" "}
-                <a href="https://bitpanda.com">Bitpanda</a> eller{" "}
-                <a href="https://coinmama.com">Coinmama</a>, och därefter
-                överföra till sitt Bybit-konto.
+                <a className={articleStyles.link} href="https://coinbase.com">
+                  Coinbase
+                </a>
+                ,{" "}
+                <a className={articleStyles.link} href="https://bitpanda.com">
+                  Bitpanda
+                </a>{" "}
+                eller{" "}
+                <a className={articleStyles.link} href="https://coinmama.com">
+                  Coinmama
+                </a>
+                , och därefter överföra till sitt Bybit-konto.
               </p>
               <p className={articleStyles.text}>
                 Tradingmotorn på Bybit är utav absoluta världsklass. Vi har

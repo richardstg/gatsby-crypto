@@ -42,7 +42,8 @@
   font-size: 4rem;
   margin-bottom: $vertical-rhythm;
   font-weight: bolder;
-  color: #00bfff;
+  //color: #00bfff;
+  color: #009de0;
 }
 
 .subTitle {
@@ -114,14 +115,8 @@
   @media (max-width: 767px) {
     width: 55%;
   }
-  @media (max-width: 640px) {
-    width: 45%;
-  }
   @media (max-width: 570px) {
-    width: 50%;
-  }
-  @media (max-width: 520px) {
-    width: 55%;
+    width: 62%;
   }
   @media (max-width: 480px) {
     width: 100%;
@@ -137,16 +132,19 @@
     font-size: 1.75rem;
   }
   .text {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 480px) {
   .title {
     font-size: 2.5rem;
   }
   .subTitle {
     font-size: 1.5rem;
+  }
+  .text {
+    font-size: 1.15rem;
   }
 }
 

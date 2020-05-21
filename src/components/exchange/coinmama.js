@@ -42,8 +42,10 @@ const Coinmama = () => {
                 finns någon integrerad plånbok, och man måste därmed använda en
                 extern. För den intresserade rekommenderar vi att man läser vår
                 utvärdering av{" "}
-                <Link to="/planbocker">de bästa kryptoplånböckerna</Link>.
-                Ytterligare en nackdel är att man tar ut en avgift som ligger
+                <Link className={articleStyles.link} to="/planbocker">
+                  de bästa kryptoplånböckerna
+                </Link>
+                . Ytterligare en nackdel är att man tar ut en avgift som ligger
                 något högre än hos vissa av konkurrenterna.
               </p>
               <p className={articleStyles.text}>
