@@ -27,7 +27,7 @@ const Lend = () => {
                 trygghet.
               </p>
             </div>
-            <Link to="/utlaning">
+            <Link to="/utlaning/">
               <div
                 data-sal="fade"
                 data-sal-delay="100"

@@ -3,6 +3,8 @@ import { Container } from "reactstrap"
 
 import Header from "./header"
 import Footer from "./footer"
+import "typeface-open-sans"
+import "typeface-montserrat"
 import "../styles/app.scss"
 import layoutStyles from "./layout.module.scss"
 

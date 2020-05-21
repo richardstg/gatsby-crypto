@@ -56,7 +56,7 @@ const Coinbase = () => {
                 till lika avancerad funktionalitet som hos vissa andra aktörer,
                 i huvudsak med avseende på trading. Om man är ute efter detta
                 rekommenderar vi att man ser närmare på vår utvärdering av{" "}
-                <Link className={articleStyles.link} to="/trading">
+                <Link className={articleStyles.link} to="/trading/">
                   de bästa tradingplattformarna
                 </Link>
                 . För nybörjare och investerare som vill göra det enkelt för sig

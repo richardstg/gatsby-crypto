@@ -32,7 +32,7 @@ const Wallet = () => {
               data-sal-duration="800"
               data-sal-easing="ease-out-bounce"
             >
-              <Link to="/planbocker">
+              <Link to="/planbocker/">
                 <button className={walletStyles.button}>Läs mer</button>
               </Link>
             </div>

@@ -33,7 +33,7 @@ const Trade = () => {
               data-sal-duration="800"
               data-sal-easing="ease-out-bounce"
             >
-              <Link to="/trading">
+              <Link to="/trading/">
                 <button className={tradeStyles.button}>Läs mer</button>
               </Link>
             </div>

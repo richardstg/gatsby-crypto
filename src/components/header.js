@@ -74,7 +74,7 @@ const Header = props => {
             <Link
               className={headerStyles.navLink}
               activeClassName={headerStyles.activeNavLink}
-              to="/kopa"
+              to="/kopa/"
             >
               Köpa
             </Link>
@@ -83,7 +83,7 @@ const Header = props => {
             <Link
               className={headerStyles.navLink}
               activeClassName={headerStyles.activeNavLink}
-              to="/trading"
+              to="/trading/"
             >
               Trading
             </Link>
@@ -92,7 +92,7 @@ const Header = props => {
             <Link
               className={headerStyles.navLink}
               activeClassName={headerStyles.activeNavLink}
-              to="/planbocker"
+              to="/planbocker/"
             >
               Plånböcker
             </Link>
@@ -101,7 +101,7 @@ const Header = props => {
             <Link
               className={headerStyles.navLink}
               activeClassName={headerStyles.activeNavLink}
-              to="/utlaning"
+              to="/utlaning/"
             >
               Utlåning
             </Link>

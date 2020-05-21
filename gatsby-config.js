@@ -9,6 +9,10 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
+// // require custom fonts
+// require("typeface-open-sans")
+// require("typeface-montserrat")
+
 module.exports = {
   siteMetadata: {
     title: "CryptoHelper",

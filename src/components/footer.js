@@ -34,7 +34,7 @@ const Footer = () => {
                 <Link
                   className={footerStyles.footerLink}
                   activeClassName={footerStyles.activeFooterLink}
-                  to="/kopa"
+                  to="/kopa/"
                 >
                   Köpa
                 </Link>
@@ -43,7 +43,7 @@ const Footer = () => {
                 <Link
                   className={footerStyles.footerLink}
                   activeClassName={footerStyles.activeFooterLink}
-                  to="/trading"
+                  to="/trading/"
                 >
                   Trading
                 </Link>
@@ -52,7 +52,7 @@ const Footer = () => {
                 <Link
                   className={footerStyles.footerLink}
                   activeClassName={footerStyles.activeFooterLink}
-                  to="/planbocker"
+                  to="/planbocker/"
                 >
                   Plånböcker
                 </Link>
@@ -61,7 +61,7 @@ const Footer = () => {
                 <Link
                   className={footerStyles.footerLink}
                   activeClassName={footerStyles.activeFooterLink}
-                  to="/utlaning"
+                  to="/utlaning/"
                 >
                   Utlåning
                 </Link>
@@ -75,7 +75,7 @@ const Footer = () => {
                 <Link
                   className={footerStyles.footerLink}
                   activeClassName={footerStyles.activeFooterLink}
-                  to="/faq"
+                  to="/faq/"
                 >
                   FAQ
                 </Link>
@@ -84,7 +84,7 @@ const Footer = () => {
                 <Link
                   className={footerStyles.footerLink}
                   activeClassName={footerStyles.activeFooterLink}
-                  to="/kontakt"
+                  to="/kontakt/"
                 >
                   Kontakt
                 </Link>

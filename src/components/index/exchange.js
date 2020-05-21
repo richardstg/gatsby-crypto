@@ -32,7 +32,7 @@ const Exchange = () => {
               data-sal-duration="800"
               data-sal-easing="ease-out-bounce"
             >
-              <Link to="/kopa">
+              <Link to="/kopa/">
                 <button className={exchangeStyles.button}>Läs mer</button>
               </Link>
             </div>
