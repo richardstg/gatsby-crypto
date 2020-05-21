@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { Container, Row, Col } from "reactstrap"
 
 import exchangeStyles from "./service-area.module.scss"
-import ExchangeSVGcolor from "../svg/ExchangeSVGcolor"
+import ExchangeSVGcolor from "../svg/exchangeSVGcolor"
 
 const Exchange = () => {
   return (
