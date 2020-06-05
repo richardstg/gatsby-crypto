@@ -1,25 +1,21 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
 
-import articleStyles from "./article.module.scss"
+import outroStyles from "./outro.module.scss"
 
 const Outro = () => {
   return (
-    <Container className={articleStyles.outerWrapper} fluid>
-      <Container className={articleStyles.innerWrapper}>
+    <Container className={outroStyles.outerWrapper} fluid>
+      <Container className={outroStyles.innerWrapper}>
         <Row>
-          <Col
-            xs={12}
-            md={{ size: 8, offset: 2 }}
-            className={articleStyles.text}
-          >
-            <h2 className={articleStyles.title}>Slutord</h2>
+          <Col xs={12} md={{ size: 8, offset: 2 }} className={outroStyles.text}>
+            <h2 className={outroStyles.title}>Slutord</h2>
             {/* <div
               data-sal="slide-up"
               data-sal-duration="800"
               data-sal-easing="ease-out-bounce"
             > */}
-            <p className={articleStyles.text}>
+            <p className={outroStyles.text}>
               Allt fler människor intresserar sig för kryptovalutor och deras
               potential, vilket leder till ett ökat behov av säker förvaring.
               Kryptoplånböcker spelar därmed en viktig roll i användningen och
@@ -27,7 +23,7 @@ const Outro = () => {
               sig mer eller mindre åt från andra. Valet måste därmed göras
               utifrån vilken som passar ens egen situation.
             </p>
-            <p className={articleStyles.text}>
+            <p className={outroStyles.text}>
               De tre nämnda plånböckerna, TREZOR, Ledger och Exodus, anses
               enligt oss tillhöra de främsta på marknaden. För de som enkelt
               vill komma igång och investera mindre belopp räcker det troligtvis

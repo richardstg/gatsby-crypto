@@ -1,21 +1,21 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
 
-import articleStyles from "./article.module.scss"
+import outroStyles from "./outro.module.scss"
 
 const Outro = () => {
   return (
-    <Container className={articleStyles.outerWrapper} fluid>
-      <Container className={articleStyles.innerWrapper}>
+    <Container className={outroStyles.outerWrapper} fluid>
+      <Container className={outroStyles.innerWrapper}>
         <Row>
           <Col xs={12} md={{ size: 8, offset: 2 }}>
-            <h2 className={articleStyles.title}>Slutord</h2>
+            <h2 className={outroStyles.title}>Slutord</h2>
             {/* <div
               data-sal="slide-up"
               data-sal-duration="800"
               data-sal-easing="ease-out-bounce"
             > */}
-            <p className={articleStyles.text}>
+            <p className={outroStyles.text}>
               Utlåning av kryptovalutor är ett relativt nytt och spännande
               område som vi än bara sett början på. Det innebär nya möjligheter
               för individer att skapa sig passiva inkomster från sina
@@ -23,7 +23,7 @@ const Outro = () => {
               adoptionen av kryptovalutor och etableringen av ett nytt
               finansiellt system.
             </p>
-            <p className={articleStyles.text}>
+            <p className={outroStyles.text}>
               För den som investerar med ett långsiktigt förhållningssätt, och
               inte vill riskera sina tillgångar genom trading, är utlåning ett
               intressant alternativ. Genom ränta på ränta växer kapitalet

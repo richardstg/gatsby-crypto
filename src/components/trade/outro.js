@@ -1,25 +1,21 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
 
-import articleStyles from "./article.module.scss"
+import outroStyles from "./outro.module.scss"
 
 const Outro = () => {
   return (
-    <Container className={articleStyles.outerWrapper} fluid>
-      <Container className={articleStyles.innerWrapper}>
+    <Container className={outroStyles.outerWrapper} fluid>
+      <Container className={outroStyles.innerWrapper}>
         <Row>
-          <Col
-            xs={12}
-            md={{ size: 8, offset: 2 }}
-            className={articleStyles.text}
-          >
-            <h2 className={articleStyles.title}>Slutord</h2>
+          <Col xs={12} md={{ size: 8, offset: 2 }} className={outroStyles.text}>
+            <h2 className={outroStyles.title}>Slutord</h2>
             {/* <div
               data-sal="slide-up"
               data-sal-duration="800"
               data-sal-easing="ease-out-bounce"
             > */}
-            <p className={articleStyles.text}>
+            <p className={outroStyles.text}>
               Trading av kryptovalutor har vuxit enormt de senaste åren. Allt
               fler registrerar sig på diverse tradingplattformar och det finns
               inget som tyder på att tillväxten skulle avta. Med marknader som
@@ -29,7 +25,7 @@ const Outro = () => {
               än vad man har råd att förlora. Detta gäller särskilt när man
               använder hävstång.
             </p>
-            <p className={articleStyles.text}>
+            <p className={outroStyles.text}>
               Har man väl bestämt sig för att trada så gäller det att välja rätt
               tradingplattform. På så vis ger man sig de bästa förutsättningarna
               för att kunna lyckas. De tre alternativ som presenterats utgör
