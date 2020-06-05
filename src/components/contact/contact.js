@@ -16,7 +16,9 @@ const Contact = () => {
               data-sal-easing="ease-out-bounce"
             >
               <p className={contactStyles.text}>
-                Kontakta oss genom att maila till info@cryptohelper.se.
+                Om du har några frågor är du välkommen att kontakta oss genom
+                att maila till info@cryptohelper.se. Vi lovar att återkomma så
+                snabbt vi kan.
               </p>
             </div>
           </Col>
