@@ -4,6 +4,10 @@
   min-height: 50vh;
   padding-top: $vertical-rhythm * 2;
   padding-bottom: $vertical-rhythm * 2;
+  @media (max-width: 767px) {
+    padding-top: $vertical-rhythm * 1;
+    padding-bottom: $vertical-rhythm * 1;
+  }
 }
 
 .inner-wrapper {
@@ -90,7 +94,7 @@
     text-align: center;
     order: 1;
     svg {
-      margin-bottom: $vertical-rhythm * 2;
+      margin-bottom: $vertical-rhythm * 1;
     }
   }
   text-align: right;

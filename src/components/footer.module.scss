@@ -48,3 +48,9 @@
   //color: $button-color;
   //border-color: $button-color;
 }
+
+@media (max-width: 767px) {
+  .footer {
+    text-align: center;
+  }
+}
