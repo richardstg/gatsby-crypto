@@ -10,7 +10,7 @@ import Lend from "../components/index/lend"
 
 const IndexPage = () => {
   return (
-    <Layout>
+    <Layout indexPage>
       <SEO
         title="Hem"
         description="Vi vill göra det enkelt att investera i kryptovalutor som Bitcoin, Ethereum, och Litecoin. Genom oss hittar du rätt tjänster och produkter för att köpa, trada, förvara och låna ut kryptovalutor."

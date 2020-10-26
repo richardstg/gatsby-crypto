@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className={footerStyles.footer}>
       <Container className={footerStyles.navContainer}>
         <Row>
-          <Col xs={12} md={{ size: 4, offset: 1 }}>
+          <Col xs={12} md={{ size: 4, offset: 0 }}>
             <h6>Om CryptoHelper</h6>
             <p>
               Vår ambition är att utbilda och hjälpa människor göra bättre val
@@ -93,7 +93,7 @@ const Footer = () => {
           </Col>
         </Row>
         <Row>
-          <Col xs={12} md={{ size: 4, offset: 1 }}>
+          <Col xs={12} md={{ size: 4, offset: 0 }}>
             <p className={footerStyles.copyright}>&copy; CryptoHelper 2020</p>
           </Col>
         </Row>

@@ -1,14 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=PT+Sans&family=Poppins&family=Roboto&family=Ubuntu&display=swap");
+
 /* SCSS Variables */
 $base-line-height: 1.6;
 $base-font-size: 1.1rem;
 $vertical-rhythm: $base-line-height * $base-font-size;
 
-$body-font: "Open Sans", sans-serif;
-$header-font: "Montserrat", sans-serif;
-// $header-color: #1d1d1d;
 $header-color: #363636;
 $body-color: #3f3f3f;
+$button-color: #00adff;
 
-//$button-color: #00c1ff;
-//$button-color: #009de6;
-$button-color: #007db3;
+$header-font: "Montserrat", sans-serif;
+$body-font: "Ubuntu", sans-serif;

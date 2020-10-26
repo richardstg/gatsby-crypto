@@ -99,11 +99,14 @@ const LendSVG = () => {
         y1="-9718"
         y2="-9718"
       >
-        <stop offset="0" stop-color="#00f1ff" />
+        {/* <stop offset="0" stop-color="#00f1ff" />
         <stop offset=".231" stop-color="#00d8ff" />
         <stop offset=".5138" stop-color="#00c0ff" />
         <stop offset=".7773" stop-color="#00b2ff" />
-        <stop offset="1" stop-color="#00adff" />
+        <stop offset="1" stop-color="#00adff" /> */}
+
+        <stop offset="0" stop-color="#00adff" />
+        <stop offset="1" stop-color="#0D1476" />
       </linearGradient>
       <path
         d="m512 256c0 141.386719-114.613281 256-256 256s-256-114.613281-256-256 114.613281-256 256-256 256 114.613281 256 256zm0 0"

@@ -3,7 +3,7 @@ import { Container } from "reactstrap"
 
 import Header from "./header"
 import Footer from "./footer"
-import "typeface-open-sans"
+import "typeface-ubuntu"
 import "typeface-montserrat"
 import "../styles/app.scss"
 import layoutStyles from "./layout.module.scss"
@@ -11,7 +11,7 @@ import layoutStyles from "./layout.module.scss"
 const Layout = props => {
   return (
     <Container className={layoutStyles.container} fluid>
-      <Header />
+      <Header indexPage={props.indexPage} />
       <div className={layoutStyles.main}>{props.children}</div>
       <Footer />
     </Container>
