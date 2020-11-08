@@ -22,7 +22,7 @@ module.exports = {
       "Vi hjälper dig hitta rätt genom att lista och ranka de bästa tjänsterna för kryptovalutor.",
     url: "https://cryptohelper.se",
     siteUrl: "https://cryptohelper.se",
-    image: "/favicon.png",
+    image: "/cryptohelper.png",
     twitterUsername: "",
   },
   plugins: [
