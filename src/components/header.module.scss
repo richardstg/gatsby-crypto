@@ -5,7 +5,7 @@
   // align-content: center;
   transition: all 0.2s ease-in;
   text-align: center;
-  padding: 20px !important;
+  padding: 20px 40px !important;
   z-index: 110;
   &:focus {
     outline: none;
@@ -16,7 +16,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin-right: 3rem;
+    margin-left: 3rem;
   }
   @media (max-width: 990px) {
     padding: 10px 20px !important;
@@ -24,7 +24,7 @@
       margin-bottom: 20px;
       list-style: none;
       display: block;
-      margin-right: 0;
+      margin-left: 0;
     }
   }
 }
