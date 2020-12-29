@@ -9,7 +9,9 @@ const Intro = () => {
   return (
     <Container className={introStyles.outerWrapper} fluid>
       <Container className={introStyles.innerWrapper}>
-        <div className={introStyles.circle}></div>
+        <div className={introStyles.circle1}></div>
+                <div className={introStyles.circle2}></div>
+                                <div className={introStyles.circle3}></div>
         <Row>
           <Col className={introStyles.leftColumn} xs={12} md={7}>
             <div

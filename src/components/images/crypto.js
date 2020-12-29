@@ -7,7 +7,7 @@ const CryptoImage = image => {
     query {
       placeholderImage: file(relativePath: { eq: "bitcoingradient.png" }) {
         childImageSharp {
-          fluid(quality: 90) {
+          fluid(quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }
