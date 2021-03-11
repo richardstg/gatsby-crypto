@@ -25,6 +25,7 @@ const Header = props => {
       window.scrollY > 100
     ) {
       setHideNav(true)
+      setIsOpen(false)
     } else {
       setHideNav(false)
     }
